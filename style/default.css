@@ -142,7 +142,7 @@ nav{
 #container-cartoes{
     max-width: 80%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 
@@ -152,6 +152,7 @@ nav{
 
 #container-cartoes ul{
     display: flex;
+    flex-flow: wrap;
     margin-top: 30px;
     justify-content: center;
     justify-content: space-between;
@@ -183,3 +184,236 @@ nav{
 }
 
 
+
+#comentarios h2{
+    margin-top: 100px;
+}
+
+
+#list-coment{
+    display: flex;
+    /* flex-flow: wrap; */
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+#list-coment li img{
+    border-radius: 200px;
+}
+
+
+#list-coment li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 45%;
+    margin-top: 40px;
+    /* border: #616661 solid 2px; */
+    border: 1px solid #e0e0e0;
+    box-shadow: 10px 7px 20px 1px rgba(97,97,97,0.75);
+    border-radius: 10px;
+}
+
+#coment-desc{
+    margin-left: 20px;
+}
+
+
+#localizacao{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+#localizacao h2{
+    text-align: start;
+}
+
+#local iframe{
+    margin-top: 50px;
+    border-radius: 16px;
+
+}
+
+
+
+#rodape{
+    max-width: 80%;
+    margin: auto;
+}
+
+#rodape-input{
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#rodape-input input{
+    padding: 15px;
+    padding-right: 220px;
+    margin-right: -100px;
+}
+
+#rodape-input a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+
+}
+
+
+#rodape-rodape{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
+#rodape-rodape h3{
+    margin-bottom: 20px;
+    font-weight:300;
+}
+
+#rodape-rodape a{
+    text-decoration: none;
+    color: black;
+}
+
+#rodape-rodape p{
+    margin-bottom: 15px;
+}
+
+#rodape-rodape h2::before{
+    content: '🍜';
+}
+
+
+#topo{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+#meio{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+@media (max-width:600px){
+    #cabecalho nav{
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    #cabecalho nav div{
+        margin-bottom: 30px;
+        
+    }
+    #cardapio{
+        /* margin-left: 18%; */
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    #cardapio h3{
+        font-size: 24px;
+        /* margin-top: -250px; */
+        
+    }
+    #cardapio p{
+        font-size: 18px;
+    }
+    #cardapio a{
+        padding: 7px 15px;
+    }
+
+    #principal{
+        text-align: center;
+    }
+    #quebrar{
+        flex-flow: wrap;
+        text-align: center;
+    }
+    #quebrar img{
+        display: none;
+        /* margin-top: 20px;
+        height: 80%;
+        width: 80%; */
+    }
+    .quebrar-02{
+        flex-flow: wrap;
+    }
+
+    .quebrar-02 img{
+        margin-top: 20px;
+        height: 80%;
+        width: 80%;
+    }
+    #modo-preparo{
+        margin: auto;
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    #modo-preparo h3{
+        font-size: 22px;
+    }
+    #modo-preparo p{
+        font-size: 18px;
+    }
+    #list-coment{
+        display: block;
+    }
+
+
+
+    #list-coment li{
+        margin: auto;
+        padding: 1%;
+        display: block;
+        margin-top: 10px;
+        justify-content: start;
+        text-align: center;
+    }
+    #list-coment li img{
+        text-align: center;
+        margin: auto;
+        height: 80%;
+        width: 80%;
+    }
+    .coment-desc{
+        margin: auto;
+        text-align: center;
+    }
+    .local iframe{
+        height: 10px;
+        width: 200px;
+    }
+    #rodape-input{
+        display: none;
+    }
+    #rodape{
+        margin-top: 100px;
+        
+    }
+    #rodape-rodape{
+        display: block;
+        text-align: center;
+    }
+    #rodape-rodape div{
+        margin-top: 40px;
+        margin-bottom: ;
+    }
+    
+}

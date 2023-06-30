@@ -1,126 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>ComaBem</title>
-        <link rel="shortcut icon" href="./img/android-chrome-192x192.png" type="image/x-icon">
-        <link rel="stylesheet" href="/style/default.css" />
-    </head>
-    <body>
-        <header id="cabecalho">
-            <nav>
-                <div>
-                    <h1><span style="color: red">Coma</span>Bem</h1>
-                </div>
-                <div>
-                    <ul id="list-nav">
-                        <li>Início</li>
-                        <li>Cardápio</li>
-                        <li>Sobre</li>
-                    </ul>
-                </div>
-                <div>
-                    <a id="nav-btn" href="">Entrar</a>
-                </div>
-            </nav>
-        </header>
-        <main id="principal">
-            <article class="caixa">
-                <div id="cardapio">
-                    <h3>Comida Oriental</h3>
-                    <p>
-                        A culinária Japonesa é bastante equilibrada, sendo muito
-                        rica em peixes (ômega 3), vegetais, massas e
-                        ingredientes frescos.
-                    </p>
-                    <div id="btn-cardapio">
-                        <a href="">Cardápio</a>
-                    </div>
-                </div>
-                <div class="img-cardapio">
-                    <img
-                        src="./img/comida-japa-01.jpeg"
-                        height="
+    <title>ComaBem</title>
+    <link
+      rel="shortcut icon"
+      href="./img/android-chrome-192x192.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/style/default.css" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <nav>
+        <div>
+          <h1><span style="color: red">Coma</span>Bem</h1>
+        </div>
+        <div>
+          <ul id="list-nav">
+            <li>Início</li>
+            <li>Cardápio</li>
+            <li>Sobre</li>
+          </ul>
+        </div>
+        <div>
+          <a id="nav-btn" href="./pages/formulario.html">Entrar</a>
+        </div>
+      </nav>
+    </header>
+    <main id="principal">
+      <article class="caixa" id="quebrar">
+        <div id="cardapio">
+          <h3>Comida Oriental</h3>
+          <p>
+            A culinária Japonesa é bastante equilibrada, sendo muito rica em
+            peixes (ômega 3), vegetais, massas e ingredientes frescos.
+          </p>
+          <div id="btn-cardapio">
+            <a href="">Cardápio</a>
+          </div>
+        </div>
+        <div class="img-cardapio">
+          <img
+            src="./img/comida-japa-01.jpeg"
+            height="
                 450px"
-                        width="400px"
-                        alt=""
-                    />
-                </div>
-            </article>
-            <section class="caixa">
-                <div class="img-cardapio">
-                    <img
-                        src="./img/comida-japa-02.jpeg"
-                        height="
+            width="400px"
+            alt=""
+          />
+        </div>
+      </article>
+      <section class="caixa quebrar-02">
+        <div class="img-cardapio">
+          <img
+            src="./img/comida-japa-02.jpeg"
+            height="
                 450px"
-                        width="400px"
-                        alt=""
-                    />
-                </div>
-                <div id="modo-preparo">
-                    <h3>Feita de forma Tradicional</h3>
-                    <p>
-                        A culinária Japonesa é bastante equilibrada, sendo muito
-                        rica em peixes (ômega 3), vegetais, massas e
-                        ingredientes frescos.
-                    </p>
-                    <div id="btn-modo-preparo">
-                        <a href="">Ler mais sobre o modo de preparo </a>
-                    </div>
-                </div>
-            </section>
-            <!-- Parte dos Cartões com alimentos -->
-            <section>
-                <div id="container-cartoes">
-                    <div>
-                        <h2>Mais Populares</h2>
-                    </div>
+            width="400px"
+            alt=""
+          />
+        </div>
+        <div id="modo-preparo">
+          <h3>Feita de forma Tradicional</h3>
+          <p>
+            A culinária Japonesa é bastante equilibrada, sendo muito rica em
+            peixes (ômega 3), vegetais, massas e ingredientes frescos.
+          </p>
+          <div id="btn-modo-preparo">
+            <a href="">Ler mais sobre o modo de preparo </a>
+          </div>
+        </div>
+      </section>
+      <!-- Parte dos Cartões com alimentos -->
+      <section>
+        <div id="container-cartoes">
+          <div>
+            <h2>Mais Populares</h2>
+          </div>
 
-                    <div>
-                        <ul>
-                            <li>
-                                <img
-                                    src="./img/comida-japa-03.jpeg"
-                                    height="200px"
-                                    width="200px"
-                                    alt=""
-                                />
-                                <div class="desc-cartao">
-                                    <p>Tempura</p>
-                                    <h4>R$ 30</h4>
-                                </div>
-                            </li>
-                            <li>
-                                <img
-                                    src="./img/comida-japa-04.jpeg"
-                                    height="200px"
-                                    width="200px"
-                                    alt=""
-                                />
-                                <div class="desc-cartao">
-                                    <p>Gunka Sushi</p>
-                                    <h4>R$ 30</h4>
-                                </div>
-                            </li>
-                            <li>
-                                <img
-                                    src="./img/comida-japa-05.jpeg"
-                                    height="200px"
-                                    width="200px"
-                                    alt=""
-                                />
-                                <div class="desc-cartao">
-                                    <p>Teppan</p>
-                                    <h4>R$ 30</h4>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+          <div>
+            <ul>
+              <li>
+                <img
+                  src="./img/comida-japa-03.jpeg"
+                  height="200px"
+                  width="200px"
+                  alt=""
+                />
+                <div class="desc-cartao">
+                  <p>Tempura</p>
+                  <h4>R$ 30</h4>
                 </div>
-            </section>
-        </main>
-        <footer id="cabecalho"></footer>
-    </body>
+              </li>
+              <li>
+                <img
+                  src="./img/comida-japa-04.jpeg"
+                  height="200px"
+                  width="200px"
+                  alt=""
+                />
+                <div class="desc-cartao">
+                  <p>Gunka Sushi</p>
+                  <h4>R$ 30</h4>
+                </div>
+              </li>
+              <li>
+                <img
+                  src="./img/comida-japa-05.jpeg"
+                  height="200px"
+                  width="200px"
+                  alt=""
+                />
+                <div class="desc-cartao">
+                  <p>Teppan</p>
+                  <h4>R$ 30</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <article id="comentarios">
+        <div>
+            <h2>Comentários</h2>
+        </div>
+        <div>
+            <ul id="list-coment">
+                <li>
+                    <img src="/img/pessoa-02.jpg" height="150px" width="150px"  alt="">
+                    <div class="coment-desc">
+                        <p>Ótimo serviço! Encantada com a qualidade dos pratos.</p>
+                        <!-- icone de estrela-->
+                        <img src="/img/cinco-estrelas-removebg-preview.png" height="30px" width="90px" alt="">
+                    </div>
+                    
+                </li>
+                <li>
+                    <img src="/img/pessoa-02.jpg" height="150px" width="150px" alt="">
+                    <div class="coment-desc">
+                        <p>Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
+                        <!-- icone de estrela -->
+                        <img src="/img/cinco-estrelas-removebg-preview.png" height="30px" width="90px" alt="">
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+      </article>
+      <section id="localizacao">
+            <div>
+                <h2>Localização</h2>
+            </div>
+            <div id="local">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.67591199955!2d-46.65379892536025!3d-23.508180059639262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7e7878aaa73%3A0x5a4da093db432d4!2sAv.%20Br%C3%A1z%20Leme%2C%201000!5e0!3m2!1spt-BR!2sbr!4v1688129183950!5m2!1spt-BR!2sbr" width="80%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+      </section>
+    </main>
+    <footer id="rodape">
+        <div id="rodape-input">
+            <input type="text" placeholder="Local para entrega">
+            <a href="">Buscar!</a>
+        </div>
+        <div id="rodape-rodape">
+            <div>
+                <h2><span style="color: red">Coma</span>Bem</h2>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <p><a href="https://api.whatsapp.com/send?phone=5511977174483" target="_blank" rel="noopener noreferrer">+55 (11) 97717-4483</a></p>
+                <p><a href="mailto:ls.marinho36@gmail.com" target="_blank">ls.marinho36@gmail.com</a></p>
+            </div>
+            <div>
+                <h3>Sobre Nós</h3>
+                <p><a href="">Menu</a></p>
+                <p><a href="">Valores</a></p>
+                <p><a href="">Página principal</a></p>
+            </div>
+            <div>
+                <h3>Serviços</h3>
+                <p><a href="">Entrega</a></p>
+                <p><a href="">Retirada</a></p>
+            </div>
+        </div>
+    </footer>
+  </body>
 </html>
