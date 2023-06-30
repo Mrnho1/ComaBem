@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+
+
+#cabecalho{
+    max-width: 80%;
+    margin: auto;
+}
+
+h1::before{
+    content: '🍜';
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+#list-nav{
+    display: flex;
+}
+
+#list-nav li:hover{
+    /* border-bottom: #616661 solid 2px; */
+    text-decoration: underline #616661;
+}
+
+#list-nav li:first-child{
+    margin-right: 30px;
+}
+
+#list-nav li:nth-child(2){
+    margin: 0px 30px;
+}
+
+#list-nav li:last-child{
+    margin-left: 30px;
+}
+
+#nav-btn{
+    border: solid 2px black;
+    padding: 5px 35px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#principal{ 
+    max-width: 80%;
+    margin: auto;
+}
+
+.caixa{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+
+#btn-cardapio{
+    margin-top: 35px;
+}   
+
+
+#btn-cardapio a{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 60px;
+    border-radius: 7px;
+}
+
+
+.img-cardapio img{
+    border-radius: 20px;
+    box-shadow: 10px 7px 20px 1px rgba(97,97,97,0.75);
+}
+
+
+#cardapio{
+    margin-right: 160px;
+}
+
+
+#cardapio h3{
+    margin-bottom: 20px;
+    font-size: 3vw;
+    /* text-align: center; */
+}
+
+#modo-preparo h3{
+    margin-bottom: 20px;
+    font-size: 3vw;
+}
+
+
+#cardapio p{
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+#modo-preparo p{
+    font-size: 1.5vw;
+    /* text-align: justify; */
+}
+
+
+#modo-preparo{
+    margin-left: 160px;
+}
+
+#btn-modo-preparo{
+    margin-top: 35px;
+}
+
+
+#modo-preparo a{
+    color: red;
+    margin-top: 20px;
+
+}
+
+
+
+#container-cartoes{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+#container-cartoes h2{
+    text-align: center;
+}
+
+#container-cartoes ul{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#container-cartoes ul li img{
+    border-radius: 100px;
+    
+}
+
+
+
+#container-cartoes ul li{
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    box-shadow: 10px 7px 20px 1px rgba(97,97,97,0.75);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.desc-cartao p{
+    margin-top: 30px;
+}
+
+.desc-cartao h4{
+    color: #616661;
+}
+
+
